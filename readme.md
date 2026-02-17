@@ -20,7 +20,7 @@ This shows a highly imbalanced dataset, which can bias machine learning models.
 To remove bias, the dataset was balanced using **undersampling**.
 
 
-## 🎯 Sampling Techniques Used
+##  Sampling Techniques Used
 
 Five probabilistic sampling techniques were applied to create different samples:
 
@@ -42,7 +42,7 @@ The following models were trained and evaluated:
 * K-Nearest Neighbors (KNN)
 
 
-## 📊 Results
+##  Results
 
 | Model               | Simple Random | Systematic | Stratified | Random (Seed 2) | Bootstrap |
 | ------------------- | ------------- | ---------- | ---------- | --------------- | --------- |
@@ -71,11 +71,12 @@ From the results:
 
 
 
-## 📈 Discussion
+##  Discussion
 
 The original dataset was highly imbalanced, which could lead to biased predictions favoring the majority class. After balancing the dataset, different sampling techniques were applied to evaluate their impact on model performance.
 
 Due to the small dataset size, accuracy varied across samples. Even a single incorrect prediction significantly affected performance metrics. This highlights the importance of appropriate sampling strategies when working with limited or imbalanced data.
 
 Bootstrap sampling provided stable results, while stratified sampling ensured class balance but did not perform well due to the extremely small dataset.
+
 
